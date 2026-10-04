@@ -1,0 +1,141 @@
+# Chain / franchise brands to exclude. One per line; matched at the START of the normalized
+# restaurant name (case, accents, apostrophes, "&", leading "The" and branch suffixes like
+# " - Danforth" are ignored). Anything after '#' is a comment.
+#
+# Sources (fetched 2026-10-01):
+#   [W1] https://en.wikipedia.org/wiki/List_of_fast-food_chains_in_Canada  (active chains only)
+#   [W2] https://en.wikipedia.org/wiki/List_of_Canadian_pizza_chains
+#   [W3] https://en.wikipedia.org/wiki/List_of_casual_dining_restaurant_chains  (Canadian section)
+#   [M]  MANUAL additions from memory, UNVERIFIED -- review before trusting.
+# This list is a seed. Multi-unit independents (e.g. local groups) are handled by the
+# location-count step, not by this file.
+
+# --- [W1] fast food / fast casual ---
+A&W
+Arby's
+Applebee's
+Auntie Anne's
+La Belle Province
+Booster Juice
+Burger Baron
+barBURRITO
+Boston Pizza
+Burger King
+Baskin-Robbins
+Carl's Jr.
+Chez Ashton
+Chicken Delight
+Chipotle
+Chick-fil-A
+Cora
+Cinnabon
+Coffee Time
+Country Style
+Dairy Queen
+Dave's Hot Chicken
+Denny's
+Dixie Lee
+Domino's
+Edo Japan
+Extreme Pita
+East Side Mario's
+Five Guys
+Fryer's
+Freshii
+Firehouse Subs
+Fatburger
+Greco Pizza
+Godfather's Pizza
+Harvey's
+Hero Certified Burgers
+IHOP
+Jimmy the Greek
+Jimmy John's
+Jollibee
+KFC
+Krispy Kreme
+Lafleur
+Little Caesars
+Manchu Wok
+Mary Brown's
+McDonald's
+Mrs. Fields
+Marble Slab Creamery
+Mr. Sub
+Mucho Burrito
+Montana's
+Milestones
+New York Fries
+Orange Julius
+Panda Express
+Papa John's
+Pita Pit
+Pizza Pizza
+Pizza Hut
+Pizza Nova
+Panera Bread
+Pizza 73
+Popeyes
+Quiznos
+Qdoba
+Robin's Donuts
+Second Cup
+Smitty's
+St-Hubert
+Shoeless Joe's
+Subway
+Swiss Chalet
+St Louis Bar & Grill
+Shake Shack
+Starbucks
+Taco Bell
+Taco del Mar
+Taco Time
+Thai Express
+Tim Hortons
+The Keg
+Wendy's
+White Spot
+Wild Wing
+Wimpy's Diner
+Wingstop
+Yogen Fruz
+Kelseys
+
+# --- [W2] pizza ---
+241 Pizza
+Freshslice
+Gabriel Pizza
+Mikes
+Panago
+Pizza Delight
+Pizza Salvatore
+Pizzaville
+Topper's Pizza
+Pizzaiolo
+King of Donair
+Mother's Pizza
+
+# --- [W3] casual dining / fast casual ---
+Anchor Bar
+Baton Rouge
+Cactus Club
+Earls
+Jack Astor's
+Moxie's
+Mr. Mike's
+Nickels
+Ricky's All Day Grill
+Ben & Florentine
+Pret a Manger
+
+# --- [M] manual, unverified ---
+Scaddabush
+Original Joe's
+Elephant & Castle
+Chuck's Roadhouse
+Pickle Barrel
+Eggsmart
+Mr. Greek
+Hard Rock Cafe
+Sunset Grill
