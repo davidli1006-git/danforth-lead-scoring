@@ -1,0 +1,13 @@
+# NEVER commit API keys or pulled Google/Brave data
+google_places_key.txt
+brave_search_key.txt
+*key*.txt
+out/
+out_*/
+*.csv
+*.json
+*.gz
+*.zip
+*.bak*
+__pycache__/
+.DS_Store
